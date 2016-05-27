@@ -1,4 +1,7 @@
-# Marvel Characters WIKI
+# Marvel Characters WIKI 
+
+<a href='https://play.google.com/store/apps/details?id=br.com.hole19.marvel&hl=pt_BR&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="150" /></a>
+
 An App that consumes [MARVEL public API](http://developer.marvel.com/) in order to present its chatacters information through a clean and beautifull user interface
 
 Showcase
