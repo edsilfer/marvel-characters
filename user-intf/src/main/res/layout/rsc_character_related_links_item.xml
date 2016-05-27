@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    android:id="@+id/name"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alpha="0.5"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="15dip"
+    android:shadowColor="@color/colorPrimaryDark"
+    android:shadowRadius="@integer/textBorderRadius"
+    android:textColor="@color/colorTextSecondary"
+    android:textSize="@dimen/textH2"
+    android:textStyle="bold"/>

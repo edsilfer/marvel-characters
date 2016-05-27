@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/label_related_links"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="15dip"
+        android:shadowColor="@color/colorTextShadow"
+        android:shadowRadius="@integer/textBorderRadius"
+        android:text="@string/rsc_collections_related_links"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="@dimen/textH1"
+        android:textStyle="bold"/>
+
+    <!-- <android.support.v7.widget.RecyclerView
+         android:id="@+id/links"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/rsc_collections_recycler_view_height"
+         android:layout_marginTop="@dimen/rsc_collections_title_top_margin"
+         android:background="@android:color/transparent"/>-->
+
+    <ListView
+        android:id="@+id/links"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/rsc_collections_recycler_view_height"
+        android:layout_marginTop="@dimen/rsc_collections_title_top_margin"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MarvelChallenge.iml" filepath="$PROJECT_DIR$/MarvelChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comm/comm.iml" filepath="$PROJECT_DIR$/comm/comm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h19marvelchallenge.iml" filepath="$PROJECT_DIR$/h19marvelchallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-intf/user-intf.iml" filepath="$PROJECT_DIR$/user-intf/user-intf.iml" />
+    </modules>
+  </component>
+</project>

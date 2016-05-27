@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rsc_character_master_height">175dip</dimen>
+    <dimen name="rsc_character_details_cover_height">200dip</dimen>
+
+    <dimen name="rsc_collections_item_height">121dip</dimen>
+    <dimen name="rsc_collections_item_width">80dip</dimen>
+    <dimen name="rsc_collections_recycler_view_height">150dip</dimen>
+    <dimen name="rsc_collections_title_top_margin">10dip</dimen>
+    <dimen name="rsc_collections_related_links_divider_height">
+        0.5dip
+    </dimen>
+    <dimen name="rsc_collections_related_links_height">60dip</dimen>
+    <dimen name="rsc_collections_fullscreen_margin_top_sides">40dip
+    </dimen>
+    <dimen name="rsc_collections_fullscreen_margin_bottom">75dip
+    </dimen>
+
+    <dimen name="rsc_search_cover_height">85dip</dimen>
+    <dimen name="rsc_search_cover_width">70dip</dimen>
+
+    <dimen name="rsc_util_snackbar_height">40dip</dimen>
+
+    <dimen name="textH0">24dip</dimen>
+    <dimen name="textH1">18dip</dimen>
+    <dimen name="textH2">16dip</dimen>
+    <dimen name="textH3">14dip</dimen>
+    <dimen name="textH4">12dip</dimen>
+    <dimen name="textH5">10dip</dimen>
+
+    <integer name="textBorderRadius">3</integer>
+</resources>
+

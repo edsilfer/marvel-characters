@@ -1,0 +1,22 @@
+<resources>
+    <string name="MARVEL_KEY_PUBLIC">3647aedabf4f5df121b4493d6c689da2</string>
+    <string name="MARVEL_KEY_PRIVATE">61e7b313d0587f773e79c19a6f45f3bb87faefe4</string>
+
+    <string name="MARVEL_API_PARAM_TIMESTAMP">ts</string>
+    <string name="MARVEL_API_PARAM_API_KEY">apikey</string>
+    <string name="MARVEL_API_PARAM_API_HASH">hash</string>
+    <string name="MARVEL_API_PARAM_LIMIT_LABEL">limit</string>
+    <string name="MARVEL_API_PARAM_OFFSET_LABEL">offset</string>
+    <string name="MARVEL_API_PARAM_QUERY">nameStartsWith</string>
+
+    <integer name="MARVEL_API_PARAM_MAX_REQUESTS">10</integer>
+    <integer name="MARVEL_API_PARAM_DEFAULT_LIMIT">8</integer>
+    <integer name="MARVEL_API_PARAM_DEFAULT_OFFSET">0</integer>
+
+    <string name="MARVEL_API_BASE_URL">gateway.marvel.com</string>
+    <string name="MARVEL_API_VERSION">v1</string>
+    <string name="MARVEL_API_VISIBILITY">public</string>
+
+    <string name="MARVEL_SERVICE_LIST_CHARACTERS">characters</string>
+</resources>
+

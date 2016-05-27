@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="rsc_error_wrong_generic_type">Only Character.class and Item.class are accepted as generic types.</string>
+
+    <string name="rsc_error_comm_not_payloadwrapper_object">Response is not instanceof PayloadWrapper</string>
+</resources>

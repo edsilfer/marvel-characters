@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/drawer_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="150dip"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/spider_man"/>
+
+    <LinearLayout
+        android:id="@+id/infos_cluster"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed by\n Edgar da Silva Fernandes"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textH2"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/phonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:text="+55 61 8199 6640"
+            android:autoLink="phone"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textH2"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dip"
+                android:layout_height="15dip"
+                android:src="@drawable/linkedin"/>
+
+            <TextView
+                android:id="@+id/linkedin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:autoLink="web"
+                android:text="br.linkedin.com/in/edsilfer"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textH4"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:src="@drawable/github"/>
+
+            <TextView
+                android:id="@+id/github"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:autoLink="web"
+                android:text="github.com/edsilfer"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textH4"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dip"
+            android:autoLink="web"
+            android:text="Data provided by Marvel. © 2016 MARVEL"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textH4"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/about_libraries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infos_cluster"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorPrimary"
+        android:text="ABOUT LIBRARIES"/>
+</RelativeLayout>

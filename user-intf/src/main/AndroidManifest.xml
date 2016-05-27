@@ -1,0 +1,51 @@
+<manifest
+    package="br.com.hole19.marvel"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".ui.infrastructure.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:installLocation="preferExternal"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ui.controller.ActivityHomepage"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.controller.ActivityCharacter"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/TransparentStatusBarTheme">
+        </activity>
+
+        <activity
+            android:name=".ui.controller.ActivityItem"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.Translucent">
+        </activity>
+
+        <activity
+            android:name=".ui.controller.ActivitySearch"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Translucent">
+        </activity>
+    </application>
+
+</manifest>

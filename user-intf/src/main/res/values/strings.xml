@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Marvel Characters Wiki</string>
+
+    <string name="menu_action_search">Search</string>
+    <string name="menu_action_cancel">Exit</string>
+
+    <string name="rsc_homepage_search_hint">Search for Marvel Characters</string>
+    <string name="rsc_homepage_loading_characters">Loading more characters</string>
+
+    <string name="rsc_search_result_not_found">No character(s) found for \'PLACEHOLDER\'</string>
+
+    <string name="rsc_util_unknown_value">unknown</string>
+
+    <string name="rsc_collections_description_not_found">Description is not available for this character</string>
+    <string name="rsc_collections_description_label">Description</string>
+    <string name="rsc_collections_comics_label">Comics</string>
+    <string name="rsc_collections_comics_not_found">Ops! No comics were found for this Character. Is this guy even real?</string>
+    <string name="rsc_collections_series_label">Series</string>
+    <string name="rsc_collections_series_label_not_found">Ops! No series were found for this Character!</string>
+    <string name="rsc_collections_stories_label">Stories</string>
+    <string name="rsc_collections_stories_label_not_found">Ops! No stories were found for this Character. Poor little guy!</string>
+    <string name="rsc_collections_events_label">Events</string>
+    <string name="rsc_collections_events_label_not_found">Ops! No events were found for this Character!</string>
+    <string name="rsc_collections_related_links">Related Links</string>
+
+    <string name="rsc_collections_related_links_detail">DETAIL</string>
+    <string name="rsc_collections_related_links_wiki">WIKI</string>
+    <string name="rsc_collections_related_links_comiclink">COMICLINK</string>
+
+    <string name="rsc_util_lorem_ipsum">
+        Lorem ipsum dolor sit amet, cras lorem vitae nonummy turpis
+        parturient et, ut donec. Mi eleifend lorem morbi odio, dapibus
+        eget donec cras posuere id, neque ut et cursus nec et mauris.
+        Pellentesque ipsum nulla nunc, egestas mauris ullamcorper id,
+        et leo convallis in nec, a accumsan. Ut lorem pulvinar parturient
+        venenatis ac, dapibus sit dictum penatibus ultrices nibh donec
+        , interdum fusce felis cras. Hendrerit ligula massa dictum
+        , purus feugiat quis, lacus ac bibendum, sed in. Sed sed blandit,
+        non a vel eu varius. Wisi condimentum lectus urna leo in mauris,
+        quam mauris erat convallis eleifend urna sunt, vestibulum vestibulum
+        sed, sapien wisi elit. Odio nec consectetur integer in,
+        massa id sagittis nulla vivamus aliquam nunc.Comics
+    </string>
+
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+</resources>
+

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "445023290192",
+    "firebase_url": "https://marvel-characters.firebaseio.com",
+    "project_id": "marvel-characters",
+    "storage_bucket": "marvel-characters.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445023290192:android:06b0711cffe92e85",
+        "android_client_info": {
+          "package_name": "br.com.hole19.ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445023290192-5sc3quptha9uhthn2dk78c44m4i3e47t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbxaY9z7VvPY_zqlSj5Psf-cBvLvdhtSQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

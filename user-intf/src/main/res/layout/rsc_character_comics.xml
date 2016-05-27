@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/label_comics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="15dip"
+        android:shadowColor="@color/colorTextShadow"
+        android:shadowRadius="@integer/textBorderRadius"
+        android:text="@string/rsc_collections_comics_label"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="@dimen/textH1"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/comic_not_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="15dip"
+            android:text="@string/rsc_collections_comics_not_found"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="@dimen/textH3"
+            android:visibility="invisible"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/comics"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/rsc_collections_recycler_view_height"
+            android:layout_marginTop="@dimen/rsc_collections_title_top_margin"
+            android:background="@android:color/transparent"
+            android:clickable="false"/>
+    </RelativeLayout>
+</LinearLayout>
